@@ -39,5 +39,6 @@ class ViewController: UIViewController {
     // proxy
     // vpn
     // uuid by keychain
+    // jailbreak
 }
 
