@@ -189,7 +189,7 @@ class Hardware {
             case "iPad8,5":
                 return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi)"
             case "iPad8,6":
-                return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi)"
+                return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi)"  // remove some duplicated code?
             case "iPad8,7":
                 return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi + Cellular)"
             case "iPad8,8":
