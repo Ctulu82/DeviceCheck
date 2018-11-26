@@ -72,6 +72,14 @@ class Hardware {
                 return "iPhone 8 Plus"
             case "iPhone10,6":
                 return "iPhone X"
+            case "iPhone11,2":
+                return "iPhone XS"
+            case "iPhone11,4":
+                return "iPhone XS Max"
+            case "iPhone11,6":
+                return "iPhone XS Max"
+            case "iPhone11,8":
+                return "iPhone XR"
             
             // iPod touch
             case "iPod1,1":
@@ -170,6 +178,22 @@ class Hardware {
                 return "iPad Pro (10.5-inch) (Wi-Fi)"
             case "iPad7,4":
                 return "iPad Pro (10.5-inch) (Wi-Fi + Cellular)"
+            case "iPad8,1":
+                return "iPad Pro (11-inch) (Wi-Fi)"
+            case "iPad8,2":
+                return "iPad Pro (11-inch) (Wi-Fi)"
+            case "iPad8,3":
+                return "iPad Pro (11-inch) (Wi-Fi + Cellular)"
+            case "iPad8,4":
+                return "iPad Pro (11-inch) (Wi-Fi + Cellular)"
+            case "iPad8,5":
+                return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi)"
+            case "iPad8,6":
+                return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi)"  // remove some duplicated code?
+            case "iPad8,7":
+                return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi + Cellular)"
+            case "iPad8,8":
+                return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi + Cellular)"
             
             // Apple TV
             case "AppleTV2,1":
