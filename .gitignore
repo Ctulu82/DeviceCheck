@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.gitignore.io/api/xcode,swift,objective-c
 # Edit at https://www.gitignore.io/?templates=xcode,swift,objective-c
 
@@ -9,6 +10,12 @@
 ## Build generated
 build/
 DerivedData/
+=======
+## Build generated
+build/
+DerivedData
+build.xcarchive
+>>>>>>> 1bfc5f42b92dae4f5dc97453ae01ee065abcc2cc
 
 ## Various settings
 *.pbxuser
@@ -19,16 +26,26 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+<<<<<<< HEAD
 xcuserdata/
 
 ## Other
 *.moved-aside
 *.xccheckout
+=======
+xcuserdata
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+>>>>>>> 1bfc5f42b92dae4f5dc97453ae01ee065abcc2cc
 *.xcscmblueprint
 
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
+<<<<<<< HEAD
 *.dSYM.zip
 *.dSYM
 
@@ -127,4 +144,13 @@ playground.xcworkspace
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# End of https://www.gitignore.io/api/xcode,swift,objective-c
+# End of https://www.gitignore.io/api/xcode,swift,objective-c# End of https://www.gitignore.io/api/xcode,swift,objective-c
+=======
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Checkouts
+Carthage/Build
+>>>>>>> 1bfc5f42b92dae4f5dc97453ae01ee065abcc2cc
