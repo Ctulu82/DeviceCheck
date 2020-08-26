@@ -80,6 +80,14 @@ class Hardware {
                 return "iPhone XS Max"
             case "iPhone11,8":
                 return "iPhone XR"
+            case "iPhone12,1":
+                return "iPhone 11"
+            case "iPhone12,3":
+                return "iPhone 11 Pro"
+            case "iPhone12,5":
+                return "iPhone 11 Pro Max"
+            case "iPhone12,8":
+                return "iPhone SE (2nd generation)"
             
             // iPod touch
             case "iPod1,1":
@@ -94,6 +102,8 @@ class Hardware {
                 return "iPod touch (5th generation)"
             case "iPod7,1":
                 return "iPod touch (6th generation)"
+            case "iPod9,1":
+                return "iPod touch (7th generation)"
             
             // iPad
             case "iPad1,1":
@@ -118,6 +128,20 @@ class Hardware {
                 return "iPad (4th generation) (Wi-Fi + Cellular)"
             case "iPad3,6":
                 return "iPad (4th generation) (Wi-Fi + Cellular MM)"
+            case "iPad6,11":
+                return "iPad (5th generation) (Wi-Fi)"
+            case "iPad6,12":
+                return "iPad (5th generation) (Wi-Fi + Cellular)"
+            case "iPad7,5":
+                return "iPad (6th generation) (Wi-Fi)"
+            case "iPad7,6":
+                return "iPad (6th generation) (Wi-Fi + Cellular)"
+            case "iPad7,11":
+                return "iPad (7th generation) (Wi-Fi)"
+            case "iPad7,12":
+                return "iPad (7th generation) (Wi-Fi + Cellular)"
+            
+            // iPad Air
             case "iPad4,1":
                 return "iPad Air (Wi-Fi)"
             case "iPad4,2":
@@ -128,14 +152,10 @@ class Hardware {
                 return "iPad Air 2 (Wi-Fi)"
             case "iPad5,4":
                 return "iPad Air 2 (Wi-Fi + Cellular)"
-            case "iPad6,11":
-                return "iPad (5th generation) (Wi-Fi)"
-            case "iPad6,12":
-                return "iPad (5th generation) (Wi-Fi + Cellular)"
-            case "iPad7,5":
-                return "iPad (6th generation) (Wi-Fi)"
-            case "iPad7,6":
-                return "iPad (6th generation) (Wi-Fi + Cellular)"
+            case "iPad11,3":
+                return "iPad Air (3rd generation) (Wi-Fi)"
+            case "iPad11,4":
+                return "iPad Air (3rd generation) (Wi-Fi + Cellular)"
             
             // iPad mini
             case "iPad2,5":
@@ -160,6 +180,10 @@ class Hardware {
                 return "iPad mini 4 (Wi-Fi)"
             case "iPad5,2":
                 return "iPad mini 4 (Wi-Fi + Cellular)"
+            case "iPad11,1":
+                return "iPad mini (5th generation) (Wi-Fi)"
+            case "iPad11,2":
+                return "iPad mini (5th generation) (Wi-Fi + Cellular)"
             
             // iPad Pro
             case "iPad6,3":
@@ -194,6 +218,14 @@ class Hardware {
                 return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi + Cellular)"
             case "iPad8,8":
                 return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi + Cellular)"
+            case "iPad8,9":
+                return "iPad Pro (11-inch) (2nd generation) (Wi-Fi)"
+            case "iPad8,10":
+                return "iPad Pro (11-inch) (2nd generation) (Wi-Fi + Cellular)"
+            case "iPad8,11":
+                return "iPad Pro (12.9-inch) (4th generation) (Wi-Fi)"
+            case "iPad8,12":
+                return "iPad Pro (12.9-inch) (4th generation) (Wi-Fi + Cellular)"
             
             // Apple TV
             case "AppleTV2,1":
