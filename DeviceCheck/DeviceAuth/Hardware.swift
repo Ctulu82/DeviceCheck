@@ -140,6 +140,10 @@ class Hardware {
                 return "iPad (7th generation) (Wi-Fi)"
             case "iPad7,12":
                 return "iPad (7th generation) (Wi-Fi + Cellular)"
+            case "iPad11,6":
+                return "iPad (8th generation) (Wi-Fi)"
+            case "iPad11,7":
+                return "iPad (8th generation) (Wi-Fi + Cellular)"
             
             // iPad Air
             case "iPad4,1":
