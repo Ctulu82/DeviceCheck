@@ -88,6 +88,14 @@ class Hardware {
                 return "iPhone 11 Pro Max"
             case "iPhone12,8":
                 return "iPhone SE (2nd generation)"
+            case "iPhone13,1":
+                return "iPhone 12 mini"
+            case "iPhone13,2":
+                return "iPhone 12"
+            case "iPhone13,3":
+                return "iPhone 12 Pro"
+            case "iPhone13,4":
+                return "iPhone 12 Pro Max"
             
             // iPod touch
             case "iPod1,1":
