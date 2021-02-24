@@ -168,6 +168,10 @@ class Hardware {
                 return "iPad Air (3rd generation) (Wi-Fi)"
             case "iPad11,4":
                 return "iPad Air (3rd generation) (Wi-Fi + Cellular)"
+            case "iPad13,1":
+                return "iPad Air (4th generation) (Wi-Fi)"
+            case "iPad13,2":
+                return "iPad Air (4th generation) (Wi-Fi + Cellular)"
             
             // iPad mini
             case "iPad2,5":
