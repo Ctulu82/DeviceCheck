@@ -242,6 +242,14 @@ class Hardware {
             return "iPad Pro (12.9-inch) (4th generation) (Wi-Fi)"
         case "iPad8,12":
             return "iPad Pro (12.9-inch) (4th generation) (Wi-Fi + Cellular)"
+        case "iPad13,4", "iPad13,5":
+            return "iPad Pro (11-inch) (3rd generation) (Wi-Fi)"
+        case "iPad13,6", "iPad13,7":
+            return "iPad Pro (11-inch) (3rd generation) (Wi-Fi + Cellular)"
+        case "iPad13,8", "iPad13,9":
+            return "iPad Pro (12.9-inch) (5th generation) (Wi-Fi)"
+        case "iPad13,10", "iPad13,11":
+            return "iPad Pro (12.9-inch) (5th generation) (Wi-Fi + Cellular)"
         
         // Apple TV
         case "AppleTV2,1":
