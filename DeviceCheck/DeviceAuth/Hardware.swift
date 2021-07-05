@@ -22,25 +22,15 @@ class Hardware {
             return "iPhone 3G"
         case "iPhone2,1":
             return "iPhone 3GS"
-        case "iPhone3,1":
-            return "iPhone 4"
-        case "iPhone3,2":
-            return "iPhone 4"
-        case "iPhone3,3":
+        case "iPhone3,1", "iPhone3,2", "iPhone3,3":
             return "iPhone 4"
         case "iPhone4,1":
             return "iPhone 4s"
-        case "iPhone5,1":
+        case "iPhone5,1", "iPhone5,2":
             return "iPhone 5"
-        case "iPhone5,2":
-            return "iPhone 5"
-        case "iPhone5,3":
+        case "iPhone5,3", "iPhone5,4":
             return "iPhone 5c"
-        case "iPhone5,4":
-            return "iPhone 5c"
-        case "iPhone6,1":
-            return "iPhone 5s"
-        case "iPhone6,2":
+        case "iPhone6,1", "iPhone6,2":
             return "iPhone 5s"
         case "iPhone7,1":
             return "iPhone 6 Plus"
@@ -52,31 +42,19 @@ class Hardware {
             return "iPhone 6s Plus"
         case "iPhone8,4":
             return "iPhone SE"
-        case "iPhone9,1":
+        case "iPhone9,1", "iPhone9,3":
             return "iPhone 7"
-        case "iPhone9,2":
+        case "iPhone9,2", "iPhone9,4":
             return "iPhone 7 Plus"
-        case "iPhone9,3":
-            return "iPhone 7"
-        case "iPhone9,4":
-            return "iPhone 7 Plus"
-        case "iPhone10,1":
+        case "iPhone10,1", "iPhone10,4":
             return "iPhone 8"
-        case "iPhone10,2":
+        case "iPhone10,2", "iPhone10,5":
             return "iPhone 8 Plus"
-        case "iPhone10,3":
-            return "iPhone X"
-        case "iPhone10,4":
-            return "iPhone 8"
-        case "iPhone10,5":
-            return "iPhone 8 Plus"
-        case "iPhone10,6":
+        case "iPhone10,3", "iPhone10,6":
             return "iPhone X"
         case "iPhone11,2":
             return "iPhone XS"
-        case "iPhone11,4":
-            return "iPhone XS Max"
-        case "iPhone11,6":
+        case "iPhone11,4", "iPhone11,6":
             return "iPhone XS Max"
         case "iPhone11,8":
             return "iPhone XR"
@@ -218,21 +196,13 @@ class Hardware {
             return "iPad Pro (10.5-inch) (Wi-Fi)"
         case "iPad7,4":
             return "iPad Pro (10.5-inch) (Wi-Fi + Cellular)"
-        case "iPad8,1":
+        case "iPad8,1", "iPad8,2":
             return "iPad Pro (11-inch) (Wi-Fi)"
-        case "iPad8,2":
-            return "iPad Pro (11-inch) (Wi-Fi)"
-        case "iPad8,3":
+        case "iPad8,3", "iPad8,4":
             return "iPad Pro (11-inch) (Wi-Fi + Cellular)"
-        case "iPad8,4":
-            return "iPad Pro (11-inch) (Wi-Fi + Cellular)"
-        case "iPad8,5":
+        case "iPad8,5", "iPad8,6":
             return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi)"
-        case "iPad8,6":
-            return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi)"  // remove some duplicated code?
-        case "iPad8,7":
-            return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi + Cellular)"
-        case "iPad8,8":
+        case "iPad8,7", "iPad8,8":
             return "iPad Pro (12.9-inch) (3rd generation) (Wi-Fi + Cellular)"
         case "iPad8,9":
             return "iPad Pro (11-inch) (2nd generation) (Wi-Fi)"
@@ -254,9 +224,7 @@ class Hardware {
         // Apple TV
         case "AppleTV2,1":
             return "Apple TV (2nd generation)"
-        case "AppleTV3,1":
-            return "Apple TV (3rd generation)"
-        case "AppleTV3,2":
+        case "AppleTV3,1", "AppleTV3,2":
             return "Apple TV (3rd generation)"
         
         // iOS simulator
