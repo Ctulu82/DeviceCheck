@@ -74,6 +74,14 @@ class Hardware {
             return "iPhone 12 Pro"
         case "iPhone13,4":
             return "iPhone 12 Pro Max"
+        case "iPhone14,2":
+            return "iPhone 13 Pro"
+        case "iPhone14,3":
+            return "iPhone 13 Pro Max"
+        case "iPhone14,4":
+            return "iPhone 12 mini"
+        case "iPhone14,5":
+            return "iPhone 13"
         
         // iPod touch
         case "iPod1,1":
@@ -130,6 +138,10 @@ class Hardware {
             return "iPad (8th generation) (Wi-Fi)"
         case "iPad11,7":
             return "iPad (8th generation) (Wi-Fi + Cellular)"
+        case "iPad12,1":
+            return "iPad (9th generation) (Wi-Fi)"
+        case "iPad12,2":
+            return "iPad (9th generation) (Wi-Fi + Cellular)"
         
         // iPad Air
         case "iPad4,1":
@@ -178,6 +190,10 @@ class Hardware {
             return "iPad mini (5th generation) (Wi-Fi)"
         case "iPad11,2":
             return "iPad mini (5th generation) (Wi-Fi + Cellular)"
+        case "iPad14,1":
+            return "iPad mini (6th generation) (Wi-Fi)"
+        case "iPad14,2":
+            return "iPad mini (6th generation) (Wi-Fi + Cellular)"
         
         // iPad Pro
         case "iPad6,3":
